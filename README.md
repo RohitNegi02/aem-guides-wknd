@@ -13,7 +13,7 @@ View the live demo at [https://www.wknd.site/](https://www.wknd.site/)
 
 ## Tutorial
 
-A corresponding [tutorial is available](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html) where you can learn how to implement a website using the latest standards and technologies in AEM Sites.
+A corresponding [tutorial is available](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html) where you can learn how to implement a website using the latest standards and technologies in AEM Sites.here we made our changes
 
 ## How to use/install
 
@@ -25,7 +25,7 @@ To deploy WKND to AEM as a Cloud Service, this project's source code must be dep
 2. Push the `main` branch to your Cloud Manager's Git repository
 3. Ensure a deployment pipline is configured to deploy the target branch/repo to the desired AEM as a Cloud Service env
 4. Run the Cloud Manager pipeline
-5. WKND will now be deployed to the target AEM as a Cloud Service environment
+5. WKND will now be deployed to the target AEM as a Cloud Service environment else i will change
 
 ### Local development (AEM 6.5 or AEM SDK)
 
