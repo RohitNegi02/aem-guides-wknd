@@ -78,6 +78,9 @@
 
     
 </head>
+
+
+	              <sly data-sly-use.dataLayerModel="${'com.sling.models.core.models.DataLayer'}"/>
     <body class="page basicpage" id="page-2eee4f8914" data-cmp-data-layer-enabled>
         <script>
           window.adobeDataLayer = window.adobeDataLayer || [];
@@ -88,6 +91,16 @@
                   path: 'page.page\u002D2eee4f8914'
               }
           });
+          
+          
+          var digitalData=digitaldata || {};
+          digitaldata={
+        		  page:{
+        			  pageName:"${dataLayerModel.path @ context='unsafe'}",
+        		  }
+          }
+          
+          
         </script>
         
         
